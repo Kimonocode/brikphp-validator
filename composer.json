@@ -1,0 +1,28 @@
+{
+    "name": "kimonocode/brikphp-validator",
+    "description": "Valider facilement les données d'une Requête HTTP",
+    "license": "MIT",
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "ronald"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Brikphp\\Validator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Brikphp\\Validator\\Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.9",
+        "phpunit/phpunit": "^11.5",
+        "squizlabs/php_codesniffer": "^3.0"
+    }
+}

@@ -1,0 +1,70 @@
+
+# 📁 Cache et fichiers temporaires
+cache/
+tmp/
+temp/
+logs/
+*.log
+
+# 📁 Sessions et fichiers uploadés
+sessions/
+uploads/
+*.sql
+*.sqlite
+
+# ⚙️ Configuration et secrets
+.env
+.env.local
+.env.*.local
+config/*.local.php
+
+# 🛠️ Dépendances Composer
+/vendor/
+
+# 🛠️ Dépendances Node.js (si utilisé)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# 📝 Fichiers de build (assets compilés)
+public/build/
+public/assets/
+dist/
+
+# 🖥️ Fichiers des IDE et éditeurs de texte
+.idea/
+.vscode/
+*.iml
+*.sw?
+*~.nib
+
+# 📸 Snapshots et fichiers de test
+phpunit.xml
+phpunit.xml.dist
+phpunit.cache
+coverage/
+
+# 🚀 Déploiement (si déployé via des outils comme Deployer)
+deploy.php
+
+# 🔒 Fichiers sensibles ou spécifiques au serveur
+*.crt
+*.key
+*.pem
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# 🚀 Divers
+composer.lock
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.bak
+*.tmp
+
+# 🐘 Spécifique à Laravel (si applicable)
+storage/
+bootstrap/cache/

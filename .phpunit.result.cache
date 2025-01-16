@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\ValidatorTest::testValidationSuccess":8,"Tests\\ValidatorTest::testValidationFailure":8},"times":{"Tests\\ValidatorTest::testValidationSuccess":0.045,"Tests\\ValidatorTest::testValidationFailure":0.001,"Brikphp\\Validator\\Tests\\ValidatorTest::testValidationSuccess":0.018,"Brikphp\\Validator\\Tests\\ValidatorTest::testValidationFailure":0.009}}
