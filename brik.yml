@@ -1,5 +1,2 @@
 di:
-  required: true
-  method: get
-  from: Brikphp\Validator\ValidatoreInterface::class
-  to: Brikphp\Validator\Validator::class
+  required: false
