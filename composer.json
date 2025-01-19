@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "authors": [
         {
-            "name": "ronald"
+            "name": "kimonocode"
         }
     ],
     "autoload": {
