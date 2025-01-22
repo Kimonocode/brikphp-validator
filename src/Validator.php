@@ -65,6 +65,24 @@ abstract class Validator {
 
         return empty($this->errors);
     }
+    
+    /**
+     * Retourne les erreurs de validation.
+     *
+     * @return array
+     */
+    public function getErrors(): array
+    {
+        return $this->errors;
+    }
+
+    /**
+     * Retourne le schéma de validation d'une classe enfant.
+     * Doit être implémentée dans les sous-classes.
+     *
+     * @return array
+     */
+    abstract protected function getSchema(): array;
 
     /**
      * Valide la confirmation de deux champs.
@@ -101,24 +119,6 @@ abstract class Validator {
             default => is_a($value, $type),
         };
     }
-
-    /**
-     * Retourne les erreurs de validation.
-     *
-     * @return array
-     */
-    public function getErrors(): array
-    {
-        return $this->errors;
-    }
-
-    /**
-     * Retourne le schéma de validation d'une classe enfant.
-     * Doit être implémentée dans les sous-classes.
-     *
-     * @return array
-     */
-    abstract protected function getSchema(): array;
 
     /**
      * Ajoute une erreur de validation.
